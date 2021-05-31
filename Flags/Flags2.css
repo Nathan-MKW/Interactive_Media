@@ -1,0 +1,335 @@
+div {
+	display: inline-block;
+}
+
+
+
+.squareW {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+}
+
+
+
+
+
+
+.BlueSquare1 {
+	width: 250px;
+	height: 200px;
+	background-color: blue;
+	border-color: blue;
+}
+
+.BlueSquare2 {
+	width: 400px;
+	height: 200px;
+	background-color: blue;
+	border-color: blue;
+}
+
+.YellowSquareV {
+	width: 100px;
+	height: 200px;
+	background-color: yellow;
+	border-color: yellow;
+}
+
+.YellowSquareH {
+	width: 758px;
+	height: 100px;
+	background-color: yellow;
+}
+
+
+
+
+
+
+
+
+.RedSquare1 {
+	width: 300px; 
+	height:300px;
+	background-color: red;
+}
+
+.RedSquare2 {
+	width: 500px;
+	height: 300px;
+	background-color: red;
+}
+
+.WhiteSquareV {
+	width: 100px;
+	height: 200px;
+	background-color: white;
+}
+
+.WhiteSquareH {
+	width: 758px;
+	height: 100px;
+	background-color: white;
+}
+
+
+
+
+
+.WhiteSquare1 {
+	width: 250px;
+	height: 250px;
+	border-color: white;
+	border: 1px solid black;
+}
+
+.WhiteSquare2 {
+	width: 450px;
+	height: 250px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.LightBlueSquareV {
+	width: 100px;
+	height: 250px;
+	background-color: lightblue;
+	border: 1px solid lightblue; 
+}
+
+
+.LightBlueSquareH {
+	width: 808px;
+	height: 100px;
+	background-color: lightblue;
+	border: 1px solid lightblue;
+}
+
+
+
+
+
+
+
+.Test1 {
+	width: 230px;
+	height: 170px;
+	background-color: blue;
+	border-right: 10px solid white;
+	border-top: 10px solid white;
+	border-bottom: 10px solid white;
+}
+
+.Test2 {
+	width: 420px;
+	height: 170px;
+	background-color: blue;
+	border: 10px solid white;
+}
+
+.Test3 {
+	width: 50px;
+	height: 180px;
+	background-color: red;
+	border-left: 10px solid white;
+	border-right: 10px solid white;
+}
+
+.Test4 {
+	width: 728px;
+	height: 50px;
+	background-color: red;
+	border: 10px solid red;
+
+}
+
+.Test5 {
+	width: 50px;
+	height: 170px;
+	background-color: red;
+	border-bottom: 20px solid red;
+}
+
+.Test6 {
+	width: 230px;
+	height: 180px;
+	background-color: blue;
+	border-right: 20px solid white;
+	border-top: 10px solid white;
+}
+
+.Test7 {
+	width: 420px;
+	height: 180px;
+	background-color: blue;
+	border-top: 10px solid white;
+	border-right: 10px solid white;
+	border-left: 20px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+.TriangleL {
+	width: 700px;
+	height: 150px;
+	background-color: black;
+	border-top: 150px solid green;
+	border-left: 180px solid black;
+	border-bottom: 150px solid red;
+
+#LineL 
+    width: 100px;
+    height: 10 px;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--These were my attempts at making kuwait-->
+
+
+.Triangle4 {
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid green;
+	border-left: 100px solid black;
+	border-bottom: 100px solid red;
+
+#LineL 
+    width: 400px;
+    height: 130px;
+    background: green;
+    border-right: 600px solid white;
+
+
+.Triangle 
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid green;
+	border-right: 100px solid black;
+	border-bottom: 100px solid red;
+
+	#LineL 
+    width: 400px;
+    height: 130px;
+    background: green;
+    border-left: 600px solid transparent ;
+
+    .Triangle 
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid transparent;
+	border-right: 100px solid black;
+	border-bottom: 100px solid red;
+
+	#LineL 
+    width: 400px;
+    height: 130px;
+    background: green;
+    border-left: 600px solid transparent ;
+}
+
+
+
+
+
+
+
+.Triangle {
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid green;
+	border-left: 100px solid black;
+	border-bottom: 100px solid red;
+
+#LineL 
+    width: 400px;
+    height: 130px;
+    background: green;
+    border-right: 600px solid white;
+
+
+.Triangle 
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid green;
+	border-right: 100px solid black;
+	border-bottom: 100px solid red;
+
+	#LineL 
+    width: 400px;
+    height: 130px;
+    background: green;
+    border-left: 600px solid black;
+}
+
+
+.Triangle2 {
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid green;
+	border-left: 100px solid black;
+	border-bottom: 100px solid red;
+
+#LineL 
+    width: 400px;
+    height: 130px;
+    background: green;
+    border-right: 600px solid black;
+}
+
+
+
+.Triangle3 {
+	width: 0px;
+	height: 0px;
+	border-top: 200px solid green;
+	border-left: 200px solid black;
+	border-bottom: 200px solid red;
+
+#LineL 
+    width: 400px;
+    height: 150px;
+    background: green;
+    border-right: 600px solid black;
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
