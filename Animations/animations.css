@@ -1,0 +1,351 @@
+@keyframes slideshow {
+	from {
+		color: red;
+		opacity: 1;
+	}
+	to {
+		color: pink;
+		opacity: 0;
+	}
+}
+
+h5 {
+	color: #FCD68D;
+	font-family: monarcha, cy, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+}
+
+
+h5:hover {
+	color: #FCD68D;
+	font-family: monarcha, cy, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	animation-name: slideshow;
+	animation-duration: 2s;
+}
+
+
+@keyframes example {
+	0%   {
+		background-color:red; left:0px; top:0px;
+	}
+	25%  {
+		background-color:yellow; left:200px; top:0px;
+	}
+	50%  {
+		background-color:blue; left:200px; top:200px;
+	}
+	75%  {
+		background-color:green; left:0px; top:200px;
+	}
+	100% {
+		background-color:red; left:0px; top:0px;
+	}
+}
+
+
+h2 {
+	color: #A1A373;	
+	font-family: cy, cubano, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+}
+
+h2:hover: {
+	animation-name: example;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+
+h3 {
+	color: #A1A373;
+	font-family: cubano-sharp, cy, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 40px;
+}
+
+
+@keyframes spin {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+h6 {
+	color: #C27138;
+	font-family: cy, cubano, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 60px;
+}
+
+h6:hover {
+	color: #C27138;
+	font-family: cy, cubano, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 60px;
+	animation-name: spin;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+
+
+
+
+/*Online CSS typeface*/
+
+
+h2 {
+  font-size: 100px;
+  margin: 0;
+   writing-mode: vertical-lr;
+  text-align: center;
+  line-height: .9;
+  animation: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.rotate {
+   transform: rotate(180deg);
+}
+
+div {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: max-content max-content;
+}
+
+body {
+  margin: 0;
+}
+
+h2:hover {
+  font-size: 100px;
+  margin: 0;
+   writing-mode: vertical-lr;
+  text-align: center;
+  line-height: .9;
+  animation: example;
+}
+
+/*Online CSS Typeface*/
+
+
+/*Online Typeface Hover*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+p {
+	color: #C27138;
+	font-family: cy, cubano, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 60px;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+
+main {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	font-size: 3rem;
+	background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-repeat: no-repeat;
+	transition: background 0.2s ease-out;
+	white-space: nowrap;
+}
+
+span {
+	position: relative;
+}
+
+span:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15px;
+	background: #000;
+	bottom: 9px;
+	transition: all 0.2s ease-out;
+}
+
+p:hover {
+	background-position: 0 11px;
+}
+
+span:hover:before {
+	transform: translateY(10px)
+}
+
+/*Online Typeface Hover*/
+
+
+/*Online Typeface Square*/
+
+/* Basic styles */
+
+*: after {
+	box-sizing: border-box;
+}
+
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	color: #000;
+	font-family: 'Maitree', cy, serif;
+}
+
+h1{
+	font-size: 3em;
+	font-weight: normal;
+}
+
+/* title styles */
+.home-title span{
+	position: relative;
+	overflow: hidden;
+	display: block;
+	line-height: 1.2;
+}
+
+.home-title:hover {
+	position: relative;
+	overflow: hidden;
+	display: block;
+}
+
+.home-title span::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+	animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
+	transform: translateX(-101%);
+}
+
+
+
+.home-title: span::before:{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--bg-color);
+	animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
+	transform: translateX(0);
+}
+
+.home-title:hover {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--bg-color);
+	animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
+	transform: translateX(0);
+}
+
+.home-title span::nth-of-type(1)::before,
+.home-title span:nth-of-type(1)::after{
+	animation-delay: 1s;
+}
+
+.home-title:hover:nth-of-type(1)::before,
+.home-title:hover:nth-of-type(1)::after{
+}
+
+.home-title span::nth-of-type(2)::before,
+.home-title span:nth-of-type(2)::after{
+	animation-delay: 1.5s;
+}
+
+.home-title:hover:nth-of-type(2)::before,
+.home-title:hovernth-of-type(2)::after{
+}
+
+@keyframes a-ltr-after{
+	0% {transform: translateX(-100%)}
+	100% {transform: translateX(101%)}
+}
+
+@keyframes a-ltr-before{
+	0% {transform: translateX(0)}
+	100% {transform: translateX(200%)}
+}
+
+
+
+/*Online Typeface Square*/
+
+
+
+/*
+Property	Description
+@keyframes	Specifies the animation code
+
+animation	A shorthand property for setting all the animation properties
+
+animation-delay	Specifies a delay for the start of an animation
+
+animation-direction	Specifies whether an animation should be played forwards, 
+backwards or in alternate cycles
+
+animation-duration	Specifies how long time an animation should take to complete 
+one cycle
+
+animation-fill-mode	Specifies a style for the element when the animation is not 
+playing (before it starts, after it ends, or both)
+
+animation-iteration-count	Specifies the number of times an animation
+should be played
+
+animation-name	Specifies the name of the @keyframes animation
+
+animation-play-state	Specifies whether the animation is running or paused
+
+animation-timing-function	Specifies the speed curve of the animation*/
+
