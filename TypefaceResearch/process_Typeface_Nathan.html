@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-zoom:1.0">
+  	<meta charset="utf-8">
+    <title>Process Page Template</title>
+    <style>
+        /* Move all CSS to a stylesheet */
+        * { /* Remove default browser spacing */
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 100px; /* Add spacing around the entire page */ 
+            font-size: 12px; /* Setting baseline font size */ 
+        }
+
+        /* Start of text sizes */
+        h1 {
+            font-size: 4em;
+        }
+        h2 {
+            font-size: 3em;
+            padding-top: 60px;
+        }
+        p {
+            font-size: 2em;
+            line-height: 1.5em;
+        }
+        figcaption {
+            font-size: 1.25em;
+        }
+        /* End of text sizes */
+
+        /* Start of spacing and layout */
+        h2, p, figure, figcaption {
+            margin-bottom: 40px;
+        }
+        img {
+            margin-bottom: 10px;
+        }
+        .process-template {
+            width: 40%; /* Set the width of the template to 60% of the viewport. */
+            margin: auto; /* Center align the template by adding auto margins to the left and right */
+        }
+        .title {
+            margin-bottom: 100px; /* Add spacing to the bottom of the title div */
+        }
+
+        .section {
+            margin-bottom: 100px;
+        }
+        /* End of spacing and layout */
+
+        /* Adding media queries for page to adapts to tablet and mobile devices */
+        @media (max-width: 991px) {
+            .process-template {
+                width: 60%;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                margin: 40px;
+                font-size: 10px;
+            }
+            .process-template {
+                width: 100%;
+            }
+        }
+
+        a {
+            color: #D06464;
+            text-decoration: none;
+            font-size: 60px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="process-template">
+        <!-- Start of title -->
+        <div class="title">
+            <h1>Page Title</h1>
+        </div>
+        <!-- End of title -->
+        <!-- Start of content -->
+        <div class="content">
+
+            <a href="https://nathan-mkw.github.io/Interactive_Media/Typeface/typeface.html">Finished Typeface</a>
+            <!-- Start of a section -->
+            <div class="section">
+                <h2>Nathan Whitefield Typeface</h2>
+                <p>
+                   I was focused on making a more playful typeface, intitially inspired by carnivals and elementary school bubble letters I moved on through different ideations until I created a form that I was happy with. I started skeching on Adobe XD using the circle tool primarily as I thought it would give me the best frame of referance for my final while also using rounded rectangles for this bubble letter effect I initially wanted. I wanted my typeface to coencide with my chosen poster theme, which was theorizing the web and with that in mind I made my letters be insie flashing rectangles with vertical lines. this was to resemble a computer screen. I wanted the letters to have a vintage but playful feel to them with the more curvy lettering and the horizontal repeat background.  
+                </p>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="Typeface.png" width="100%">
+                  <figcaption>typeface</figcaption>
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a section -->
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Sketches</h2>
+                <p>
+                    I started with creating itterations using Adobe XD. I created two, one was what I ended up basing my final typeface on while the latter was created to see how to make these letters on the grid and what ways I can configure a grid setup. 
+                </p>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="Typeface1 2.png" width="100%">
+                  <figcaption>typeface Iteration 1</figcaption>
+                </figure>
+
+                 <figure>
+                  <img src="Typeface2 2.png" width="100%">
+                  <figcaption>Typeface Iteration 2</figcaption>
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+        </div>
+        <!-- End of content -->
+    </div>
+  </body>
+</html>
