@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-zoom:1.0">
+  	<meta charset="utf-8">
+    <title>Abstract Website</title>
+    <style>
+        /* Move all CSS to a stylesheet */
+        * { /* Remove default browser spacing */
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 100px; /* Add spacing around the entire page */ 
+            font-size: 12px; /* Setting baseline font size */ 
+        }
+
+        /* Start of text sizes */
+        h1 {
+            font-size: 4em;
+        }
+        h2 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 2em;
+            line-height: 1.5em;
+        }
+        figcaption {
+            font-size: 1.25em;
+        }
+        /* End of text sizes */
+
+        /* Start of spacing and layout */
+        h2, p, figure, figcaption {
+            margin-bottom: 40px;
+        }
+        img {
+            margin-bottom: 10px;
+        }
+        .process-template {
+            width: 40%; /* Set the width of the template to 60% of the viewport. */
+            margin: auto; /* Center align the template by adding auto margins to the left and right */
+        }
+        .title {
+            margin-bottom: 100px; /* Add spacing to the bottom of the title div */
+        }
+
+        .section {
+            margin-bottom: 100px;
+        }
+        /* End of spacing and layout */
+
+        /* Adding media queries for page to adapts to tablet and mobile devices */
+        @media (max-width: 991px) {
+            .process-template {
+                width: 60%;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                margin: 40px;
+                font-size: 10px;
+            }
+            .process-template {
+                width: 100%;
+            }
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="process-template">
+        <!-- Start of title -->
+        <div class="title">
+            <h1>Abstract Website</h1>
+        </div>
+
+        <div class="section">
+                <h2>Final Website</h2>
+                <p>
+                    My final website I feel is playing with vision and giving that impression of loosing vision. I like having the multiple random dots as they remind me of when you look at a light and then close your eyes, seeing illusions of what you were looking previously. In addition, the centre circle engulfs the screen, eventuaually covering where the mouse can click. completely "blinding" the user from where there mouse is located.
+                </p>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="ClickFinal.png" width="100%">
+                  <figcaption>Caption text for image if needed</figcaption>
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+        <!-- End of title -->
+        <!-- Start of content -->
+        <div class="content">
+            <!-- Start of a section -->
+            <div class="section">
+                <h2>Sampling</h2>
+                <p>
+                    I struggled with coming up for a concept for this assignment with my initial ideations stemming from storytelling and point and click adventures. these ended up being ideas I did not use as they far exceeded my capabilities or didn't utilise the click function primarily. I ended up with a final that is stil fairly story driven but no where near as much as I initially wanted. 
+                </p>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="CirclesForConnection.png" alt="working with jQuery to creae a circle based website" width="100%">
+                  <figcaption>Caption text for image if needed</figcaption>
+                </figure>
+                <figure>
+                  <img src="FeedTheBeast.png" alt="Sketch of a click to feed a human minigame I was thinking of" width="100%">
+                  <figcaption>Caption text for image if needed</figcaption>
+                </figure>
+                <figure>
+                  <img src="AbstractSketches.png" alt="Sketches of some Ideas I was thinking of origionally" width="100%">
+                  <figcaption>Caption text for image if needed</figcaption>
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a section -->
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Example Sites</h2>
+                <p>
+                    I did lots of testing however most of them didn't work also p5.js did not save all of my samples for some reason. these are the ones I hvae still, I also worked with trying the line function to craete a continous line with clicks however I was only ever able to create lines that would mirror where my mouse was by using mouseX and mouseY. In addition, I also played around with creating dots that would create multiple dots upon clicking, something I ended up using for the final assignment. 
+                </p>
+                <!-- Start of a section -->
+                <!-- Start of image with caption -->
+                <a href="https://editor.p5js.org/Nathan-MKW/full/DHjbfVllY">Sample 1</a>
+                <figure>
+                  <img src="Click Function Test .png" width="100%">
+                  <figcaption>this was my attempt at furthering what was explained to me in class</figcaption>
+                </figure>
+                <a href="MousePositionTest.png">Trying out cursor location functions</a>
+                <figure>
+                  <img src="MousePositionTest.png" width="100%">
+                  <figcaption>I was trying out the cursor function to see If I cud get it to work, I cold not get it to repel items using the mouse however</figcaption>
+                </figure>
+                <a href="https://editor.p5js.org/Nathan-MKW/full/aauhL1AdV">Initial Clicking Sampling</a>
+                <img src="Screen Shot 2021-06-18 at 9.10.18 PM.png" width="100%">
+                  <figcaption>this is me trying to further what was given to me in class</figcaption>
+                </figure>
+
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+        </div>
+        <!-- End of content -->
+    </div>
+  </body>
+</html>
