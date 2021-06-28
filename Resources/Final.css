@@ -1,0 +1,315 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Sheep*/
+
+.circle {
+	position: absolute;
+    width: 100px;
+    height: 90px;
+    background: black;
+    border-radius: 50%;
+    left: 200px;
+    top: 110px;
+}
+
+.circle2 {
+	position: absolute;
+    width: 100px;
+    height: 90px;
+    background: black;
+    border-radius: 50%;
+    left: 150px;
+    top: 110px;
+}
+
+.circle3 {
+	position: absolute;
+    width: 150px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    left: 150px;
+    top: 96px;
+}
+
+.head {
+	position: absolute;
+    width: 70px;
+    height: 70px;
+    background: black;
+    border-radius: 50%;
+    left: 110px;
+    top: 80px;
+}
+
+.head2 {
+	position: absolute;
+    width: 30px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    left: 120px;
+    top: 94px;
+}
+
+
+.leg1 {
+	position: absolute;
+    width: 20px;
+    height: 40px;
+    background: black;
+    border-radius: 50%;
+    left: 170px;
+    top: 184px;
+}
+
+.leg2 {
+	position: absolute;
+    width: 20px;
+    height: 40px;
+    background: black;
+    border-radius: 50%;
+    left: 200px;
+    top: 176px;
+}
+
+.leg3 {
+	position: absolute;
+    width: 20px;
+    height: 40px;
+    background: black;
+    border-radius: 50%;
+    left: 240px;
+    top: 184px;
+}
+
+.leg4 {
+	position: absolute;
+    width: 20px;
+    height: 40px;
+    background: black;
+    border-radius: 50%;
+    left: 260px;
+    top: 176px;
+}
+
+.tail {
+	position: absolute;
+    width: 20px;
+    height: 40px;
+    transform: rotate(-40deg);
+    background: black;
+    border-radius: 50%;
+    left: 288px;
+    top: 120px;
+}
+
+.ear {
+	position: absolute;
+    width: 20px;
+    height: 40px;
+    transform: rotate(80deg);
+    background: black;
+    border-radius: 50%;
+    left: 160px;
+    top: 70px;
+}
+.ear2 {
+	position: absolute;
+    width: 10px;
+    height: 20px;
+    transform: rotate(80deg);
+    background: white;
+    border-radius: 50%;
+    left: 166px;
+    top: 80px;
+}
+
+/*letter Boxes*/
+
+.box1 {
+	position: absolute;
+	width: 20vmin;
+	height: 14vmin;
+	background-color: transparent;
+	left: 142vmin;
+	top: 39vmin;
+}
+
+.box2 {
+    position: absolute;
+    width: 20vmin;
+    height: 14vmin;
+    background-color: transparent;
+    left: 121vmin;
+    top: 14vmin;
+}
+
+.box3 {
+    position: absolute;
+    width: 20vmin;
+    height: 14vmin;
+    background-color: transparent;
+    left: 56vmin;
+    top: 80vmin;
+}
+
+.box4 {
+    position: absolute;
+    width: 20vmin;
+    height: 14vmin;
+    background-color: transparent;
+    left: 82vmin;
+    top: 38vmin;
+}
+
+.box5 {
+    position: absolute;
+    width: 20vmin;
+    height: 14vmin;
+    background-color: transparent;
+    left: 123vmin;
+    top: 68vmin;
+}
+
+.box6 {
+    position: absolute;
+    width: 20vmin;
+    height: 14vmin;
+    background-color: transparent;
+    left: 32vmin;
+    top: 14vmin;
+}
+
+.box7 {
+    position: absolute;
+    width: 20vmin;
+    height: 14vmin;
+    background-color: transparent;
+    left: 166vmin;
+    top: 22vmin;
+}
+
+.box8 {
+    position: absolute;
+    width: 20vmin;
+    height: 14vmin;
+    background-color: transparent;
+    left: 26vmin;
+    top: 58vmin;
+}
+
+.box9 {
+    position: absolute;
+    width: 20vmin;
+    height: 14vmin;
+    background-color: transparent;
+    left: 74vmin;
+    top: 62vmin;
+}
+
+.box10 {
+    position: absolute;
+    width: 20vmin;
+    height: 14vmin;
+    background-color: transparent;
+    left: 165vmin;
+    top: 78vmin;
+}
+
+
+/*Sheep Done*/
+
+
+
+a {
+	position: absolute;
+	color: white;
+	padding-left: 2vmin;
+}
+
+a:hover {
+    position: absolute;
+    color: #8E97FF;
+    padding-left: 2vmin;
+}
+
+
+
+.sheep1 {
+	position: absolute;
+	left: 120vmin;
+	top: 20vmin;
+}
+
+
+.sheep2 {
+	position: absolute;
+	left: 100vmin;
+	top: -6vmin;
+}
+
+
+.sheep3 {
+	position: absolute;
+	left: 30vmin;
+	top: 60vmin;
+}
+
+.sheep4 {
+	position: absolute;
+	left: 58vmin;
+	top: 20vmin;
+}
+
+.sheep5 {
+	position: absolute;
+	left: 100vmin;
+	top: 50vmin;
+}
+
+
+.sheep6 {
+	position: absolute;
+	left: 10vmin;
+	top: -4vmin;
+}
+
+
+.sheep7 {
+	position: absolute;
+	left: 140vmin;
+	top: 4vmin;
+}
+
+
+.sheep8 {
+	position: absolute;
+	left: 4vmin;
+	top: 40vmin;
+}
+
+
+.sheep9 {
+	position: absolute;
+	left: 50vmin;
+	top: 44vmin;
+}
+
+
+.sheep10 {
+	position: absolute;
+	left: 140vmin;
+	top: 60vmin;
+}
+
+
+
+
+
+
+
+
