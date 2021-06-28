@@ -1,0 +1,181 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	color: #1C2D74;
+}
+
+a {
+	color: #1C2D74;
+/*	padding: 2vmin;*/
+}
+
+.heading1{
+	position: absolute;
+	left: 50vmin;
+	top: 4vmin;
+
+}
+
+.heading2{
+	position: absolute;
+	left: 114vmin;
+	top: 88vmin;
+
+}
+
+.heading3{
+	position: absolute;
+	left: 50vmin;
+	top: 170vmin;
+
+}
+
+.heading4{
+	position: absolute;
+	left: 114vmin;
+	top: 270vmin;
+}
+
+.heading5{
+	position: absolute;
+	left: 50vmin;
+	top: 320vmin;
+
+}
+
+.link1 {
+	position: absolute;
+	width: 12vmin;
+	height: 8vmin;
+	background-color: #86D5FF;
+	left: 120vmin;
+	top: 40vmin;
+}
+
+.link2 {
+	position: absolute;
+	width: 12vmin;
+	height: 8vmin;
+	background-color: #86D5FF;
+	left: 50vmin;
+	top: 124vmin;
+}
+
+.link3 {
+	position: absolute;
+	width: 12vmin;
+	height: 8vmin;
+	background-color: #86D5FF;
+	left: 120vmin;
+	top: 216vmin;
+}
+
+.link4 {
+	position: absolute;
+	width: 12vmin;
+	height: 8vmin;
+	background-color: #86D5FF;
+	left: 50vmin;
+	top: 290vmin;
+}
+
+.link5 {
+	position: absolute;
+	width: 12vmin;
+	height: 8vmin;
+	background-color: #86D5FF;
+	left: 120vmin;
+	top: 350vmin;
+}
+
+.reading1 {
+	position: absolute;
+    width: 72vmin;
+    height: 74vmin;
+    background-color: #1C2D74;
+    top: 10vmin;
+    left: 40vmin;
+}
+
+
+.reading1:hover {
+	width: 72vmin;
+	height: 74vmin;
+	background-color: #86D5FF;
+}
+
+.reading2 {
+	position: absolute;
+    width: 72vmin;
+    height: 69vmin;
+    background-color: #1C2D74;
+    top: 94vmin;
+    left: 70vmin;
+}
+
+
+.reading2:hover {
+	width: 72vmin;
+	height: 69vmin;
+	background-color: #86D5FF;
+}
+
+.reading3 {
+	position: absolute;
+    width: 72vmin;
+    height: 84vmin;
+    background-color: #1C2D74;
+    top: 176vmin;
+    left: 40vmin;
+}
+
+
+.reading3:hover {
+	width: 72vmin;
+	height: 84vmin;
+	background-color: #86D5FF;
+}
+
+.reading4 {
+	position: absolute;
+    width: 72vmin;
+    height: 36vmin;
+    background-color: #1C2D74;
+    top: 276vmin;
+    left: 70vmin;
+}
+
+
+.reading4:hover {
+	width: 72vmin;
+	height: 36vmin;
+	background-color: #86D5FF;
+}
+
+.reading5 {
+	position: absolute;
+    width: 72vmin;
+    height: 58vmin;
+    background-color: #1C2D74;
+    top: 328vmin;
+    left: 40vmin;
+}
+
+
+.reading5:hover {
+	width: 72vmin;
+	height: 58vmin;
+	background-color: #86D5FF;
+}
+
+.bottomBarrier{
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	background-color: transparent;
+	top: 400vmin;
+
+}
