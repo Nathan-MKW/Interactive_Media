@@ -1,0 +1,991 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*Codepen Code*/
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+}
+
+
+.instructions {
+  position: absolute;
+  top: 50vmin;
+  left: 50vmin;
+  transform: translate(-50vmin, -50vmin);
+  border: 3px solid #fff;
+  border-radius: 6vmin;
+  padding: 8vmin;
+}
+
+/*Finished codepen code*/
+
+
+
+
+
+
+
+
+
+
+/*Start of bubble links*/
+
+
+
+a {
+	position: absolute;
+	color: #1C2D74;
+	font-size: 4vmin;
+	padding-top: 4vmin;
+	padding-bottom: 4vmin;
+	padding-left: 2vmin;
+	padding-right: 4vmin;
+	font-family: bubblegum-pop-shadow,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@keyframes float{
+	from {
+		left: 100vmin;
+		top: 130vmin;
+	}
+	to {
+		left: 100vmin;
+		top: 0;
+	}
+}
+
+#textBox {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 100vmin;
+	top: 130vmin;
+	z-index: 11;
+	animation-name: float;
+	animation-duration: 22s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+#textBox:hover {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+	animation-name: float;
+	animation-play-state: paused;
+}
+
+
+@keyframes float2{
+	from {
+		left: 60vmin;
+		top: 190vmin;
+	}
+	to {
+		left: 60vmin;
+		top: 0;
+	}
+
+}
+
+#textBox2 {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 60vmin;
+	top: 190vmin;
+	z-index: 11;
+	animation-name: float2;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#textBox2:hover {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+	animation-name: float2;
+	animation-play-state: paused;
+}
+
+#textBox3 {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 20vmin;
+	top: 100vmin;
+	z-index: 11;
+	animation-name: float3;
+}
+
+#textBox3:hover {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+
+}
+
+#textBox3EX {
+	position: absolute;
+	width: 10vmin;
+	height: 10vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 36vmin;
+	top: 100vmin;
+}
+
+@keyframes float4{
+	from {
+		left: 160vmin;
+		top: 176vmin;
+	}
+	to {
+		left: 160vmin;
+		top: 0;
+	}
+
+}
+
+#textBox4 {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 160vmin;
+	top: 176vmin;
+	z-index: 11;
+	animation-name: float4;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#textBox4:hover {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+	animation-name: float4;
+	animation-play-state: paused;
+}
+
+@keyframes float5{
+	from {
+		left: 140vmin;
+		top: 140vmin;
+	}
+	to {
+		left: 140vmin;
+		top: 0;
+	}
+
+}
+
+#textBox5 {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 140vmin;
+	top: 140vmin;
+	z-index: 11;
+	animation-name: float5;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#textBox5:hover {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+	animation-name: float5;
+	animation-play-state: paused;
+
+}
+
+@keyframes float6{
+	from {
+		left: 40vmin;
+		top: 170vmin;
+	}
+	to {
+		left: 40vmin;
+		top: 0;
+	}
+
+}
+
+#textBox6 {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 40vmin;
+	top: 170vmin;
+	z-index: 11;
+	animation-name: float6;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#textBox6:hover {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+	animation-name: float6;
+	animation-play-state: paused;
+}
+
+@keyframes float7{
+	from {
+		left: 80vmin;
+		top: 140vmin;
+	}
+	to {
+		left: 80vmin;
+		top: 0;
+	}
+
+}
+
+#textBox7 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 80vmin;
+	top: 140vmin;
+	z-index: 11;
+	animation-name: float7;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#textBox7:hover {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+	animation-name: float7;
+	animation-play-state: paused;
+}
+
+#textBox8 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 96vmin;
+	top: 160vmin;
+	z-index: 11;
+}
+
+#textBox8:hover {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+}
+
+#textBox8EX {
+	position: absolute;
+	width: 10vmin;
+	height: 10vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 108vmin;
+	top: 166vmin;
+}
+
+@keyframes float9{
+	from {
+		left: 150vmin;
+		top: 120vmin;
+	}
+	to {
+		left: 150vmin;
+		top: 0;
+	}
+
+}
+
+#textBox9 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 150vmin;
+	top: 120vmin;
+	z-index: 11;
+	animation-name: float9;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#textBox9:hover {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+    animation-name: float9;
+    animation-play-state: paused;
+}
+
+#textBox10 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 10vmin;
+	top: 130vmin;
+	z-index: 11;
+}
+
+#textBox10:hover {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+}
+
+#textBox10EX {
+	position: absolute;
+	width: 12vmin;
+	height: 12vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 11vmin;
+	top: 140vmin;
+}
+
+#textBox11 {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 120vmin;
+	top: 200vmin;
+	z-index: 11;
+}
+
+#textBox11:hover {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+}
+
+#textBox11EX {
+	position: absolute;
+	width: 12vmin;
+	height: 12vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 142vmin;
+	top: 202vmin;
+}
+
+@keyframes float12{
+	from {
+		left: 30vmin;
+		top: 120vmin;
+	}
+	to {
+		left: 30vmin;
+		top: 0;
+	}
+
+}
+
+#textBox12 {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 30vmin;
+	top: 120vmin;
+	z-index: 11;
+	animation-name: float12;
+	animation-duration: 14s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#textBox12:hover {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+	animation-name: float12;
+	animation-play-state: paused;
+}
+
+@keyframes float22{
+	from {
+		left: 10vmin;
+		top: 200vmin;
+	}
+	to {
+		left: 10vmin;
+		top: 0;
+	}
+
+}
+
+#textBox22 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 10vmin;
+	top: 200vmin;
+	z-index: 11;
+	animation-name: float22;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+#textBox22:hover {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #8E97FF;
+	animation-name: float22;
+	animation-play-state: paused;
+}
+
+
+
+#textBox23 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 40vmin;
+	top: 190vmin;
+	z-index: 11;
+}
+
+#textBox23:hover {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #8E97FF
+}
+
+#textBox33 {
+	position: absolute;
+	width: 6vmin;
+	height: 6vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 52vmin;
+	top: 199vmin;
+	z-index: 11;
+}
+
+
+/*End of Bubble links*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Start of bubble decoration on bottom*/
+
+#Bubble1 {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 100vmin;
+	top: 130vmin;
+}
+
+#Bubble1-2 {
+	position: absolute;
+	width: 22vmin;
+	height: 22vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 101vmin;
+	top: 131vmin;
+}
+
+#Bubble2{
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 60vmin;
+	top: 190vmin;
+}
+
+#Bubble2-2{
+	position: absolute;
+	width: 22vmin;
+	height: 22vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 61vmin;
+	top: 191vmin;
+}
+
+#Bubble3 {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 160vmin;
+	top: 176vmin;
+}
+
+#Bubble3-2 {
+	position: absolute;
+	width: 18vmin;
+	height: 18vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 161vmin;
+	top: 177vmin;
+}
+
+#Bubble4{
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 140vmin;
+	top: 140vmin;
+}
+
+#Bubble4-2{
+	position: absolute;
+	width: 22vmin;
+	height: 22vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 141vmin;
+	top: 141vmin;
+}
+
+#Bubble5 {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 40vmin;
+	top: 170vmin;
+}
+
+#Bubble5 {
+	position: absolute;
+	width: 18vmin;
+	height: 18vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 41vmin;
+	top: 171vmin;
+}
+
+#Bubble6 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 80vmin;
+	top: 140vmin;
+}
+
+#Bubble6-2 {
+	position: absolute;
+	width: 14vmin;
+	height: 14vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 81vmin;
+	top: 141vmin;
+}
+
+#Bubble7 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 150vmin;
+	top: 120vmin;
+}
+
+#Bubble7-2 {
+	position: absolute;
+	width: 14vmin;
+	height: 14vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 151vmin;
+	top: 121vmin;
+}
+
+#Bubble8 {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 30vmin;
+	top: 120vmin;
+}
+
+#Bubble8-2 {
+	position: absolute;
+	width: 22vmin;
+	height: 22vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 31vmin;
+	top: 121vmin;
+}
+
+#Bubble9 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 10vmin;
+	top: 200vmin;
+}
+
+#Bubble9-2 {
+	position: absolute;
+	width: 14vmin;
+	height: 14vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 11vmin;
+	top: 201vmin;
+}
+
+
+
+
+
+
+
+/*End of bubble decoration on Bottom*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start of decorative bubbles (top)*/
+
+#textBox13 {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 100vmin;
+	top: 30vmin;
+}
+
+#textBox14 {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 60vmin;
+	top: 90vmin;
+}
+
+#textBox15 {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 20vmin;
+	top: 2vmin;
+}
+
+#textBox16 {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 160vmin;
+	top: 76vmin;
+}
+
+#textBox17 {
+	position: absolute;
+	width: 24vmin;
+	height: 24vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 140vmin;
+	top: 40vmin;
+}
+
+#textBox18 {
+	position: absolute;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 40vmin;
+	top: 70vmin;
+}
+
+#textBox19 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 80vmin;
+	top: 40vmin;
+}
+
+#textBox20 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 96vmin;
+	top: 60vmin;
+}
+
+#textBox21 {
+	position: absolute;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 50%;
+	background-color: #86D5FF;
+	left: 150vmin;
+	top: 20vmin;
+}
+
+/*dark blue interior*/
+
+#textBox24 {
+	position: absolute;
+	width: 22vmin;
+	height: 22vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 101vmin;
+	top: 31vmin;
+	z-index: 12;
+}
+
+#textBox25 {
+	position: absolute;
+	width: 22vmin;
+	height: 22vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 61vmin;
+	top: 91vmin;
+	z-index: 12;
+}
+
+#textBox26 {
+	position: absolute;
+	width: 18vmin;
+	height: 18vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 21vmin;
+	top: 3vmin;
+	z-index: 12;
+}
+
+#textBox27 {
+	position: absolute;
+	width: 18vmin;
+	height: 18vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 161vmin;
+	top: 77vmin;
+	z-index: 12;
+}
+
+#textBox28 {
+	position: absolute;
+	width: 22vmin;
+	height: 22vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 141vmin;
+	top: 41vmin;
+	z-index: 12;
+}
+
+#textBox29 {
+	position: absolute;
+	width: 18vmin;
+	height: 18vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 41vmin;
+	top: 71vmin;
+	z-index: 12;
+}
+
+#textBox30 {
+	position: absolute;
+	width: 14vmin;
+	height: 14vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 81vmin;
+	top: 41vmin;
+	z-index: 12;
+}
+
+#textBox31 {
+	position: absolute;
+	width: 14vmin;
+	height: 14vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 97vmin;
+	top: 61vmin;
+	z-index: 12;
+}
+
+#textBox32 {
+	position: absolute;
+	width: 14vmin;
+	height: 14vmin;
+	border-radius: 50%;
+	background-color: #2A4ACE;
+	left: 151vmin;
+	top: 21vmin;
+	z-index: 12;
+}
+
+
+/*Decorative top bubbles finished*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Making Responsive for Mobile*/
+
+
+@media (max-width: 991px) (max-height: 300px) {
+	body {
+		margin: 34px;
+	}
+
+	canvas {
+   	    width: 0vw;
+    	height: 0vh;
+	}
+
+}
+
+
