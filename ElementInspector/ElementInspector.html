@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-zoom:1.0">
+  	<meta charset="utf-8">
+    <title>Process Page Template</title>
+    <style>
+        /* Move all CSS to a stylesheet */
+        * { /* Remove default browser spacing */
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 100px; /* Add spacing around the entire page */ 
+            font-size: 12px; /* Setting baseline font size */ 
+        }
+
+        /* Start of text sizes */
+        a {
+            color: #C6733A;
+            font-size: 60px;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 4em;
+        }
+        h2 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 2em;
+            line-height: 1.5em;
+        }
+        figcaption {
+            font-size: 1.25em;
+        }
+        /* End of text sizes */
+
+        /* Start of spacing and layout */
+        h2, p, figure, figcaption {
+            margin-bottom: 40px;
+            padding-top: 40px;
+        }
+        img {
+            margin-bottom: 10px;
+        }
+        .process-template {
+            width: 40%; /* Set the width of the template to 60% of the viewport. */
+            margin: auto; /* Center align the template by adding auto margins to the left and right */
+        }
+        .title {
+            margin-bottom: 100px; /* Add spacing to the bottom of the title div */
+        }
+
+        .section {
+            margin-bottom: 100px;
+        }
+        /* End of spacing and layout */
+
+        /* Adding media queries for page to adapts to tablet and mobile devices */
+        @media (max-width: 991px) {
+            .process-template {
+                width: 60%;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                margin: 40px;
+                font-size: 10px;
+            }
+            .process-template {
+                width: 100%;
+            }
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="process-template">
+        <!-- Start of title -->
+        <div class="title">
+            <h1>Element Inspector</h1>
+        </div>
+        <!-- End of title -->
+        <!-- Start of content -->
+        <div class="content">
+
+            <a href="https://nathan-mkw.github.io/Interactive_Media/Poster/Poster.html">All inspectors</a>
+            <!-- Start of a section -->
+            <div class="section">
+               
+                <figure>
+                  <img src="Web1.png" width="100%">
+                  <figcaption>Website 1</figcaption>
+              </figure>
+
+              <figure>
+                  <img src="Web2.png" width="100%">
+                  <figcaption>Website 2</figcaption>
+              </figure>
+
+              <figure>
+                  <img src="Web3.png" width="100%">
+                  <figcaption>Website 3</figcaption>
+              </figure>
+              <!-- End of image with caption -->
+          </div>
+            <!-- End of a new section -->
+        </div>
+        <!-- End of content -->
+    </div>
+  </body>
+</html>
